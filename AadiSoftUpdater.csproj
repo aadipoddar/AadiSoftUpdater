@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.0.0</Version>
+		<Company>AadiSoft</Company>
+		<Authors>Aadi Poddar</Authors>
+		<PackageId>AadiSoft.Updater</PackageId>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<NuGetAuditMode>direct</NuGetAuditMode>
+		<PackageProjectUrl>https://aadi.vercel.app/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/aadipoddar/AadiSoftUpdater</RepositoryUrl>
+		<Description>AadiSoftUpdater is an automatic updater for Windows applications. It checks for updates on a specified GitHub repository and updates the application by downloading and installing the latest MSI file from the repository's releases</Description>
+		<PackageReleaseNotes>First Release Automatic Updater Included</PackageReleaseNotes>
+		<Copyright>All Rights Reserved AadiSoft</Copyright>
+		<PackageTags>C#, .NET, Automatic Updater</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Update="LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Update="README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
