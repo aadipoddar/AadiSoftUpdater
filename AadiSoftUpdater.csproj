@@ -4,7 +4,7 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
 		<Company>AadiSoft</Company>
 		<Authors>Aadi Poddar</Authors>
 		<PackageId>AadiSoft.Updater</PackageId>
@@ -20,11 +20,23 @@
 		<PackageTags>C#, .NET, Automatic Updater</PackageTags>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>Aadi Soft Auto Updater</Title>
-		<ApplicationIcon>aadisoft.ico</ApplicationIcon>
+		<ApplicationIcon>Resources\aadisoft.ico</ApplicationIcon>
+		<PackageIcon>aadisoft.jpg</PackageIcon>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Content Include="aadisoft.ico" />
+	  <None Remove="Resources\aadisoft.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\aadisoft.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\aadisoft.jpg">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </EmbeddedResource>
 	</ItemGroup>
 
 	<ItemGroup>
