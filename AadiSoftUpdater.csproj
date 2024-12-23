@@ -4,7 +4,7 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Company>AadiSoft</Company>
 		<Authors>Aadi Poddar</Authors>
 		<PackageId>AadiSoft.Updater</PackageId>
@@ -20,7 +20,12 @@
 		<PackageTags>C#, .NET, Automatic Updater</PackageTags>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<Title>Aadi Soft Auto Updater</Title>
+		<ApplicationIcon>aadisoft.ico</ApplicationIcon>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="aadisoft.ico" />
+	</ItemGroup>
 
 	<ItemGroup>
 	  <None Update="LICENSE.txt">
