@@ -2,6 +2,9 @@
 
 AadiSoftUpdater is an automatic updater for Windows applications. It checks for updates on a specified GitHub repository and updates the application by downloading and installing the latest MSI file from the repository's releases.
 
+## Tutorial Video
+[Aadi-Youtube](https://www.youtube.com/watch?v=k_cJ09gB78k)
+
 ## Features
 
 - Check for updates on a GitHub repository.
